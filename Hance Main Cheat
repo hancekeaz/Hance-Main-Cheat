@@ -46,6 +46,13 @@ local Button = MainTab:CreateButton({
 })
 
 local Button = MainTab:CreateButton({
+   Name = "GHOST HUB [HANCE]",
+   Callback = function()
+    loadstring(game:HttpGet('https://raw.githubusercontent.com/GhostPlayer352/Test4/main/ GhostHub'))()
+   end,
+})
+
+local Button = MainTab:CreateButton({
    Name = "MUSIC EXPO [HANCE]",
    Callback = function()
    local player = game.Players.LocalPlayer
