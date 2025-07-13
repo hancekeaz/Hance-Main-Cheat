@@ -1013,6 +1013,8 @@ local Button = WTab:CreateButton({
    loadstring(game:HttpGet("https://raw.githubusercontent.com/usbkillerx/EZhacker/refs/heads/main/EZhack"))()
    end,
 })
+local WTab = Window:CreateTab("FANTASMA PVP", nil) -- Title, Image
+local Section = WTab:CreateSection("FANTASMA PVP")
 
 local Button = STab:CreateButton({
    Name = "ALADIA AIMBOT [HANCE]",
