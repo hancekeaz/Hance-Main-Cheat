@@ -1021,8 +1021,4 @@ local Button = STab:CreateButton({
    Name = "ALADIA AIMBOT [HANCE]",
    Callback = function()
    loadstring(game:HttpGet("https://pastebin.com/raw/z9u1Tv67"))()
-  end
-end)
- 
    end,
-})
