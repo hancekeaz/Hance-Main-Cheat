@@ -586,6 +586,13 @@ end)
 })
 
 local Button = MainTab:CreateButton({
+   Name = "BRING/CARRY ALL [HANCE]",
+   Callback = function()
+    loadstring(game:HttpGet("https://pastebin.com/raw/GY1wfJRZ"))()
+   end,
+})
+
+local Button = MainTab:CreateButton({
    Name = "LOOPBRING ALL [HANCE]",
    Callback = function()
    local L1 = true;
