@@ -48,7 +48,7 @@ local Button = MainTab:CreateButton({
 local Button = MainTab:CreateButton({
    Name = "GHOST HUB [HANCE]",
    Callback = function()
-    loadstring(game:HttpGet('https://raw.githubusercontent.com/GhostPlayer352/Test4/main/ GhostHub'))()
+   loadstring(game:HttpGet('https://raw.githubusercontent.com/GhostPlayer352/Test4/main/ GhostHub'))()
    end,
 })
 
