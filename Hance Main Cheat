@@ -1014,9 +1014,6 @@ local Button = WTab:CreateButton({
    end,
 })
 
-local STab = Window:CreateTab("ALADIA PVP", nil) -- Title, Image
-local Section = STab:CreateSection("ALADIA PVP")
-
 local Button = STab:CreateButton({
    Name = "ALADIA AIMBOT [HANCE]",
    Callback = function()
